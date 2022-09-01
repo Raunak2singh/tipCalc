@@ -1,0 +1,134 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta:wght@500&family=Roboto+Mono:ital,wght@1,500&display=swap'); */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+/* <> */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 20px;
+    color: rgb(249, 249, 249);
+}
+
+.container {
+
+    width: 300px;
+    /* padding: 20px; */
+    box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.header
+{
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ gap: 2px;
+ align-items: center;
+ background-color:  rgb(77, 218, 49);
+ font-size: 20px;
+ font-weight: 700;
+ color: white;
+ border-radius: 20px 20px 20px 20px;
+ box-shadow: 0px 0px 10px 1px rgb(77, 218, 49);
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 2px;
+    /* background-color: aquamarine; */
+}
+button {
+
+}
+button:hover{
+   /* color: rgb(178, 241, 67); */
+}
+
+.inputItem{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: inset 0px 0px 8px 1px rgba(0, 0, 0, 0.08);
+   
+}
+
+.inputItem p{
+    text-align: left;
+    /* font-weight: 700; */
+    color: rgb(77, 218, 49);
+}
+
+select{
+    padding: 10px;
+    border: 1px solid rgb(77, 218, 49)    ;
+    border-radius: 10px;
+}
+
+
+input, select {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    margin-top: -10px;
+    border-radius: 4px;
+    border:2px solid rgb(77, 218, 49);
+    background-color: rgb(77, 218, 49);
+    letter-spacing: 2px;
+}
+
+button:hover{
+    border:2px solid  rgb(202, 222, 255);
+    background-color: white;
+    color: rgb(129, 175, 255);
+    /* border-radius: 50px; */
+    transition: all .4s;
+    /* box-shadow: 0px 0px 30px 1px rgb(129, 175, 255,0.5); */
+}
+
+.tip p {
+    font-size: larger;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: rgb(82, 82, 82);
+}
+
+.tip span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family:monospace;
+    
+    color: rgb(33, 200, 41);
+}
